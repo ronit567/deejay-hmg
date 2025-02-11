@@ -5,7 +5,7 @@ import App from './App.tsx';
 import './index.css';
 
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter basename='/deejay-hmg/' > 
+  <BrowserRouter basename = '/deejay-hmg/' > 
   <StrictMode>
     <App />
   </StrictMode>
